@@ -144,7 +144,7 @@ client.on('message', message => {
 
 client.on("guildMemberAdd", (member) => {
 
-let channel = "511988776881487902"
+let channel = "521701583881240596"
 
     if (!channel) {
 
