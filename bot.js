@@ -92,7 +92,7 @@ const w = ['./wlcbt.png'];
 })
 });
 
-const devs = ["521479557375852547"]
+const devs = ["618681842362744832"]
 
 const adminprefix = "+";
 client.on('message', message => {
@@ -144,7 +144,7 @@ client.on('message', message => {
 
 client.on("guildMemberAdd", (member) => {
 
-let channel = "521701583881240596"
+let channel = "641222138879016973"
 
     if (!channel) {
 
@@ -166,7 +166,7 @@ let channel = "521701583881240596"
 
     while (!guild)
 
-        guild = client.guilds.get("496630210796453898");
+        guild = client.guilds.get("641222138879016973");
 
     guild.fetchInvites().then((data) => {
 
